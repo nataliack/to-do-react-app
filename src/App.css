@@ -1,0 +1,135 @@
+
+
+.edit-icon {
+  color: #b39684;
+}
+
+.delete-icon {
+  color: #b39684;
+}
+
+body {
+  background-color: 	#735046;
+  display: flex;
+  font-family: Arial;
+  margin: 50px;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+
+h1 {
+  color: 	#e4c1ac;
+  margin: 32px 0;
+  font-size: 24px;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #e4c1ac;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #735046;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  outline: none;
+  background: #e4c1ac;
+  color: #735046;
+  text-transform: capitalize;
+}
+
+.todo-input.edit {
+  border: 2px solid #61dafb
+}
+
+.todo-button.edit {
+  background: #e4c1ac;
+  padding: 16px 22px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: antiquewhite;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+
+}
+
+.todo-row:nth-child(4n+1) {
+  background: linear-gradient(
+    90deg, 
+    #b39684 (20, 159, 255, 1) 0%,
+    #b39684 (17, 122, 255, 1) 100%
+  );
+}
+
+.todo-row:nth-child(4n+2) {
+  background: linear-gradient(
+    90deg, 
+    #fdf0e8 (20, 159, 255, 1) 0%,
+    #fdf0e8 (17, 122, 255, 1) 100%
+  );
+}
+
+.todo-row:nth-child(4n+3) {
+  background: linear-gradient(
+    90deg, 
+    #e4c1ac (20, 159, 255, 1) 0%,
+    #e4c1ac (17, 122, 255, 1) 100%
+  );
+}
+
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: auto 300px;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
